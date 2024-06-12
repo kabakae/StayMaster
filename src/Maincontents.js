@@ -114,79 +114,34 @@ export const Resultcontent = [
   },
 ];
 
-export const Maincontents = [
-  {
-    id: 8,
-    img: "./card__1.jpg",
-    title: "Unique stays",
-    description: "Spaces that are more than just a place to sleep and rest.",
-  },
-  {
-    id: 9,
-    img: "./card__2.jpg",
-    title: "Online Experiences",
-    description:
-      "Unique activities we can do together, led by a world of hosts.",
-  },
-  {
-    id: 10,
-    img: "./card__3.jpg",
-    title: "Entire homes",
-    description: "Comfortable private places, with room for friends or family.",
-  },
-];
-
-export const Bigcontents = [
-  {
-    id: 11,
-    img: "./main-card_1.jpg",
-    styles: "bigcontents__list1",
-    description: "Decode the science of 2020 with Bill Nye",
-  },
-  {
-    id: 12,
-    img: "./main-card_2.jpg",
-    description: "Go on a leopard safari in Sri Lanka ",
-  },
-  {
-    id: 13,
-    img: "./main-card_3.jpg",
-    styles: "bigcontents__list3",
-    description: "Discover Buenos Aires street art and sketch",
-  },
-];
-
 export const Content = [
   {
     id: 0,
-    img: "./card_1.jpg",
-    styles: "bigcontents__list1",
-    title: "Bedroom  ",
-    price: "$100/night",
-    description: "Awesome residential streets just a few blocks from dining",
+    img: "./Adombi.jpg",
+    title: "Adombi Hostel",
+    price: "GHS 7K/year",
+    description: "Your one stop location to relax and chill in this school year",
   },
   {
     id: 1,
-    img: "./card_2.jpg",
-    title: "full Home",
-    price: "$150/night",
+    img: "./paradise.webp",
+    title: "Paradise Regained",
+    price: "GHS 7K/year",
     description: "Hello Welcome to NJ. Here is a vibrating neighborhood ",
   },
   {
     id: 5,
-    img: "./card_3.jpg",
-    title: "Square Studio",
-    styles: "bigcontents__list3",
-    price: "$190/night",
+    img: "./thersah.jpg",
+    title: "St.Theresah",
+    price: "GHS 7K/year",
     description:
       "Hell's kitchen is THE center of the entire city. Some of the best",
   },
   {
     id: 3,
-    img: "./card_4.jpg",
-    styles: "bigcontents__list4",
-    title: "Hotel Suit",
-    price: "$92/night",
+    img: "./p3.jpg",
+    title: "P3",
+    price: "GHS 7K/year",
     description: "Our Texas hotel offers the traditional comforts of home ",
   },
 ];
