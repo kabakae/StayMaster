@@ -229,6 +229,7 @@ export const Content = [
   {
     id: 0,
     img: "./Adombi.jpg",
+    styles: "bigcontents__list1",
     title: "Adombi Hostel",
     price: "GHS 7K/year", 
     description: "Your one stop location to relax and chill in this school year",
@@ -236,6 +237,7 @@ export const Content = [
   {
     id: 1,
     img: "./paradise.webp",
+    styles: "bigcontents__list1",
     title: "Paradise Regained",
     price: "GHS 1K/year",
     description: "You will have a room but we will imprison you, be back by 12am and leave the hostel by 5am.",
@@ -243,6 +245,7 @@ export const Content = [
   {
     id: 5,
     img: "./thersah.jpg",
+    styles: "bigcontents__list",
     title: "St.Theresah",
     price: "GHS 6K/year",
     description:
