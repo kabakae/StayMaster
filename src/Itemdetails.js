@@ -35,7 +35,7 @@ class Itemdetails extends React.Component {
               <i>
                 {items.rating} <i style={{ color: "#717171" }}>·</i>{" "}
               </i>
-              <i>{items.location},United States</i>
+              <i>{items.location}</i>
               <i style={{ color: "black", textDecoration: "none" }}>
                 <i style={{ color: "#717171" }}>·</i> {items.price}
               </i>
@@ -55,31 +55,10 @@ class Itemdetails extends React.Component {
               {items.type} hosted by {items.host}
             </h2>
             <h4>{items.smalldescription}</h4>
-            <div className="items__wind" style={{ cursor: "pointer" }}>
-              <svg
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-                role="presentation"
-                aria-hidden="true"
-                focusable="false"
-                style={{
-                  marginRight: "15px",
-                  height: "16px",
-                  width: "16px",
-                  display: "block",
-                  fill: "currentcolor",
-                  color: "grey",
-                }}
-              >
-                <path d="M22.39 5.798c-.088-.208-1.252-2.89-1.759-4.018a228.077 228.077 0 0 0-.677-1.49.5.5 0 0 0-.838-.11 7.236 7.236 0 0 1-.407.435 10.66 10.66 0 0 1-1.134.985C16.404 2.479 15.187 3 14 3c-1.21 0-1.995-.133-3.309-.483l-.4-.107C9.194 2.121 8.47 2 7.5 2a6.35 6.35 0 0 0-1.186.12c-.87.165-1.786.49-2.715.928-.48.225-.932.467-1.345.708l-.112.068-.171-.49a.5.5 0 1 0-.944.331l7 20a.5.5 0 0 0 .944-.33l-2.986-8.531a21.773 21.773 0 0 1 1.77-.843c.73-.307 1.44-.556 2.102-.724.61-.155 1.163-.237 1.642-.237.869 0 1.515.108 2.536.377l.398.106c1.39.371 2.255.517 3.566.517 2.853 0 5.29-1.786 5.974-3.842a.5.5 0 0 0 0-.316c-.324-.974-.87-2.355-1.584-4.044z"></path>
-              </svg>
-              <h4 style={{ textDecoration: "underline" }}>
-                Report this listing
-              </h4>
-            </div>
+            
             <hr />
 
-            <div className="items__icons">
+            {/* <div className="items__icons">
               <svg
                 viewBox="0 0 32 32"
                 xmlns="http://www.w3.org/2000/svg"
@@ -96,10 +75,9 @@ class Itemdetails extends React.Component {
               >
                 <path d="M15.032 1.747c.263-1.004 1.692-.993 1.94.015.876 3.577 2.415 6.454 4.614 8.652 2.198 2.199 5.075 3.738 8.652 4.615 1.016.249 1.016 1.693 0 1.942-3.577.877-6.454 2.416-8.652 4.615-2.199 2.198-3.738 5.075-4.615 8.652-.249 1.016-1.693 1.016-1.942 0-.877-3.577-2.416-6.454-4.615-8.652-2.198-2.199-5.075-3.738-8.652-4.615-1.008-.247-1.019-1.676-.015-1.939 3.535-.923 6.394-2.487 8.597-4.69 2.202-2.202 3.765-5.06 4.688-8.595zm.945 3.518l-.133.325c-.88 2.085-2.025 3.914-3.438 5.484l-.33.357-.318.326c-1.6 1.6-3.5 2.893-5.693 3.88l-.475.206-.325.133.352.14c2.108.859 3.952 1.995 5.527 3.407l.358.33.326.319c1.603 1.602 2.887 3.515 3.854 5.732l.203.48.115.291.115-.292c.86-2.108 1.996-3.952 3.408-5.527l.33-.358.319-.326c1.602-1.603 3.515-2.887 5.732-3.854l.48-.203.292-.115-.293-.115c-2.421-.988-4.494-2.34-6.211-4.057-1.603-1.602-2.887-3.515-3.854-5.732l-.203-.48-.138-.351zm11.04-3.891c.13-.502.845-.497.969.007.176.718.48 1.287.913 1.72.433.433 1.002.737 1.72.913.508.125.508.847 0 .972-.718.176-1.287.48-1.72.913-.433.433-.737 1.002-.913 1.72-.125.508-.847.508-.972 0-.176-.718-.48-1.287-.913-1.72-.433-.433-1.002-.737-1.72-.913-.504-.124-.51-.839-.007-.97.71-.185 1.277-.496 1.712-.93.434-.435.745-1.002.93-1.712z"></path>
               </svg>
-              <h3>Enhanced Clean</h3>
-            </div>
+             <h3>Enhanced Clean</h3>
+            </div> */}
             <h4 style={{ paddingLeft: "41px", width: "70%" }}>
-              This host committed to Airbnb's 5-step enhanced cleaning process.
             </h4>
             <br />
             <div className="items__icons">
@@ -130,7 +108,7 @@ class Itemdetails extends React.Component {
               <h3>Outstanding hospitality</h3>
             </div>
             <h4 style={{ paddingLeft: "41px", width: "70%" }}>
-              Few guests complimented {items.host} for outstanding hospitality..
+              Few students complimented {items.host} for outstanding hospitality..
             </h4>
             <br />
             <div className="items__icons">
@@ -153,12 +131,12 @@ class Itemdetails extends React.Component {
               <h3>Cancellation policy</h3>
             </div>
             <h4 style={{ paddingLeft: "41px", width: "70%" }}>
-              Add your trip dates to get the cancellation details for this stay.
+              Sorry but once your payment is made for a room,there's no refund;.
             </h4>
             <br />
             <hr />
             <h3>{items.description}</h3>
-            <h3>Contact host</h3>
+            {/* <h3>Contact host</h3> */}
             <br />
             <hr />
             <h2 style={{ padding: "25px 0" }}>Amenities</h2>
@@ -219,34 +197,7 @@ class Itemdetails extends React.Component {
                 Wifi
               </h3>
             </div>
-            <div className="items__icons">
-              <svg
-                viewBox="0 0 32 32"
-                xmlns="http://www.w3.org/2000/svg"
-                aria-hidden="true"
-                className="mobile__svg"
-                role="presentation"
-                focusable="false"
-                style={{
-                  display: "block",
-                  height: "24px",
-                  width: "24px",
-                  marginRight: "-15px",
-                  fill: "currentcolor",
-                }}
-              >
-                <path d="M9.5 2a4.5 4.5 0 0 1 3.527 7.295c.609.215 1.173.55 1.66.988l.191.182L17.414 13H31v2h-2v14a2 2 0 0 1-1.85 1.995L27 31H5a2 2 0 0 1-1.995-1.85L3 29V15H1v-2h2.1a5.009 5.009 0 0 1 2.955-3.608A4.5 4.5 0 0 1 9.5 2zm7.085 13H5v14h22V15h-7.586l3.293 3.294-1.414 1.414zM9.5 4a2.5 2.5 0 0 0-1 4.792V11H8a3.001 3.001 0 0 0-2.83 2h9.415l-1.121-1.121a3 3 0 0 0-1.923-.872L11.343 11H10.5V8.792A2.5 2.5 0 0 0 9.5 4zm15.486-3a6.957 6.957 0 0 1-1.803 4.07l-.445.463A8.971 8.971 0 0 0 20.354 11H18.35a10.975 10.975 0 0 1 3.202-7.118A4.961 4.961 0 0 0 22.974 1zm2.007 0h2.004a10.96 10.96 0 0 1-3.202 7.124A4.974 4.974 0 0 0 24.373 11h-2.012a6.97 6.97 0 0 1 1.804-4.064l.444-.462A8.958 8.958 0 0 0 26.993.999z"></path>
-              </svg>
-              <h3
-                style={{
-                  fontWeight: "normal",
-                  padding: "5px 0",
-                  margin: "0 0 15px 30px",
-                }}
-              >
-                Hot tub
-              </h3>
-            </div>
+            
             <div className="items__icons">
               <svg
                 viewBox="0 0 32 32"
@@ -303,36 +254,15 @@ class Itemdetails extends React.Component {
                 Laptop-friendly workspace
               </h3>
             </div>
-            <button className="items__btn">Show all 35 amenities</button>
+         
             <hr />
             <h2 style={{ padding: "25px 0" }}>Location</h2>
             <h3 style={{ textDecoration: "none" }}>
-              {items.location}, Untited States.
+              {items.location}
             </h3>
-            <button className="items__btn">More about the location</button>
+            
             <hr className="items__mobile" />
-            <div className="items__winds" style={{ cursor: "pointer" }}>
-              <svg
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-                role="presentation"
-                aria-hidden="true"
-                focusable="false"
-                style={{
-                  marginRight: "15px",
-                  height: "16px",
-                  width: "16px",
-                  display: "block",
-                  fill: "currentcolor",
-                  color: "grey",
-                }}
-              >
-                <path d="M22.39 5.798c-.088-.208-1.252-2.89-1.759-4.018a228.077 228.077 0 0 0-.677-1.49.5.5 0 0 0-.838-.11 7.236 7.236 0 0 1-.407.435 10.66 10.66 0 0 1-1.134.985C16.404 2.479 15.187 3 14 3c-1.21 0-1.995-.133-3.309-.483l-.4-.107C9.194 2.121 8.47 2 7.5 2a6.35 6.35 0 0 0-1.186.12c-.87.165-1.786.49-2.715.928-.48.225-.932.467-1.345.708l-.112.068-.171-.49a.5.5 0 1 0-.944.331l7 20a.5.5 0 0 0 .944-.33l-2.986-8.531a21.773 21.773 0 0 1 1.77-.843c.73-.307 1.44-.556 2.102-.724.61-.155 1.163-.237 1.642-.237.869 0 1.515.108 2.536.377l.398.106c1.39.371 2.255.517 3.566.517 2.853 0 5.29-1.786 5.974-3.842a.5.5 0 0 0 0-.316c-.324-.974-.87-2.355-1.584-4.044z"></path>
-              </svg>
-              <h4 style={{ textDecoration: "underline" }}>
-                Report this listing
-              </h4>
-            </div>
+            
           </div>
         </div>
       </div>
