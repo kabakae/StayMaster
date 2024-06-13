@@ -6,7 +6,7 @@ export const Resultcontent = [
     title: "Adombi Hostel",
     type: "1 in 1 to 4 in 1 rooms",
     location: "Ayeduase,North Side",
-    host: "Mike",
+    host: "",
     amenities: "Wifi · Air condition · kitchen",
     price: "GHS 7K/year",
     description:
@@ -14,7 +14,7 @@ export const Resultcontent = [
   },
   {
     id: 1,
-    img: "./paradise.jpg",
+    img: "./paradise.webp",
     rating: "4.75(102)",
     title: " Bedroom.",
     type: "Entire apartment",
@@ -85,16 +85,16 @@ export const Resultcontent = [
   {
     id: 6,
     img: "./Anarosa.jpg",
-    rating: "4.25(425)",
-    title: "Between TS & T District",
-    type: "Room in hotel",
-    location: "New Jersey",
-    host: "Mike Abod",
+    rating: "4.2",
+    title: "Anarosa hostel",
+    type: "This hostel is",
+    location: "Kotei",
+    host: "Rosemary Annane",
     amenities: "Wifi · Washer · kitchen",
-    smalldescription: "2 guests · 1 bedroom · 1 bed · 1 bath",
-    price: "$109",
+    smalldescription: "one in one ,two in one, three in one, four in one",
+    price: "ranges from GHS4000 to GHS7000",
     description:
-      "Setting a new standard in cozy chic, these Broadway Classic rooms come with one full-size bed and features private bathroom, 43-inch flat screen TV, WiFi access, in-room safe, designer amenities, and Egyptian cotton sheets.",
+      "White Hostel"
   },
   {
     id: 7,
@@ -138,6 +138,90 @@ export const Resultcontent = [
     description:
       "Extra spacious with modern styling, our open layout studio suite features two beds, a lounge area with a small kitchen, flat screen TV, work space and iHome docking station. Can accommodate up to 4 guests Features lowered shelving and lowered door viewers and latches. Accessible bathrooms include bathtubs with handrails.",
   },
+  {
+  id:10,
+    img: "./dr nap.webp",
+    rating: "4.44(444)",
+    title: "Two Bedded Suite",
+    type: "hotel Room",
+    location: "Washignton",
+    host: "Abod",
+    amenities: "Wifi · Washer · iron",
+    smalldescription: "4 guests · 1 bedroom · 2 beds · 1 private bath",
+    price: "$105",
+    description:
+      "Extra spacious with modern styling, our open layout studio suite features two beds, a lou."
+  },
+  {
+    id:11,
+      img: "./jecado.jpg",
+      rating: "4.44(444)",
+      title: "Two Bedded Suite",
+      type: "hotel Room",
+      location: "Washignton",
+      host: "Abod",
+      amenities: "Wifi · Washer · iron",
+      smalldescription: "4 guests · 1 bedroom · 2 beds · 1 private bath",
+      price: "$105",
+      description:
+        "Extra spacious with modern styling, our open layout studio suite features two beds, a lou."
+    },
+    {
+      id:12,
+        img: "./mass-hostel.jpeg",
+        rating: "4.44(444)",
+        title: "Two Bedded Suite",
+        type: "hotel Room",
+        location: "Washignton",
+        host: "Abod",
+        amenities: "Wifi · Washer · iron",
+        smalldescription: "4 guests · 1 bedroom · 2 beds · 1 private bath",
+        price: "$105",
+        description:
+          "Extra spacious with modern styling, our open layout studio suite features two beds, a lou."
+      },
+      {
+        id:13,
+          img: "./shep 2.jpg",
+          rating: "4.44(444)",
+          title: "Two Bedded Suite",
+          type: "hotel Room",
+          location: "Washignton",
+          host: "Abod",
+          amenities: "Wifi · Washer · iron",
+          smalldescription: "4 guests · 1 bedroom · 2 beds · 1 private bath",
+          price: "$105",
+          description:
+            "Extra spacious with modern styling, our open layout studio suite features two beds, a lou."
+        },
+        {
+          id:14,
+            img: "./no-weapon.jpg",
+            rating: "4.44(444)",
+            title: "Two Bedded Suite",
+            type: "hotel Room",
+            location: "Washignton",
+            host: "Abod",
+            amenities: "Wifi · Washer · iron",
+            smalldescription: "4 guests · 1 bedroom · 2 beds · 1 private bath",
+            price: "$105",
+            description:
+              "Extra spacious with modern styling, our open layout studio suite features two beds, a lou."
+          },
+          {
+            id:15,
+              img: "./orange hostel.jpg",
+              rating: "4.44(444)",
+              title: "Two Bedded Suite",
+              type: "hotel Room",
+              location: "Washignton",
+              host: "Abod",
+              amenities: "Wifi · Washer · iron",
+              smalldescription: "4 guests · 1 bedroom · 2 beds · 1 private bath",
+              price: "$105",
+              description:
+                "Extra spacious with modern styling, our open layout studio suite features two beds, a lou."
+            }
 ];
 
 export const Content = [
